@@ -1,14 +1,10 @@
-import warnings
- 
-warnings.filterwarnings("ignore")
-
 import numpy as np
 import matplotlib.pyplot as plt
 #%matplotlib inline
 import gym
 
 # for animation
-# from JSAnimation.IPython_display import display_animation
+from JSAnimation.IPython_display import display_animation
 from matplotlib import animation
 from IPython.display import display
 
@@ -22,9 +18,8 @@ def display_frames_as_gif(frames):
 
     anim = animation.FuncAnimation(plt.gcf(), animate, frames=len(frames), interval=50)
 
-    anim.save('DQN-cartpole.gif', writer='imagemagick', fps=30, dpi=100)
-    #display(display_animation(anim, default_mode='loop'))
-    plt.show()
+    anim.save('movie_cartpole_DQN')
+    display(display_animation(anim, default_mode='loop'))
 
 # Key-Value로 저장하는 nametuple
 # from collection import nametuple
@@ -42,9 +37,9 @@ Transition = namedtuple(
 )
 
 # Constants
-ENV = 'CartPole-v1'
+ENV = 'CartPole-v0'
 GAMMA = 0.99
-MAX_STEPS = 300
+MAX_STEPS = 200
 NUM_EPISODES = 500
 
 # Class for Transition(Memory)
@@ -198,7 +193,7 @@ class Environment:
                     state_next = None
                     episode_10_list = np.hstack((episode_10_list[1:], step + 1))
 
-                    if step < 250:
+                    if step < 195:
                         reward = torch.FloatTensor([-1.0])
                         complete_episodes = 0
                     else:
@@ -217,7 +212,7 @@ class Environment:
                 state = state_next
 
                 if done:
-                    print('%d Episode: Finished after %d steps: last 10 episode - mean step = %.1f' % (
+                    print('%d Episode: Finished after %d steps: 최근 10 episode의 mean step = %.1f' % (
                         episode, step+1, episode_10_list.mean()
                     ))
                     break
@@ -228,6 +223,7 @@ class Environment:
                 episode_final = True
 
 cartpole_env = Environment()
+#cartpole_env.render()
 cartpole_env.run()
 
 
