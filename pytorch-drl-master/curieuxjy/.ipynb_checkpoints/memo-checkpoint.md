@@ -13,3 +13,12 @@ warnings.filterwarnings("ignore")
 [Derivation of Bellman’s Equation](https://jmichaux.github.io/_notebook/2018-10-14-bellman/)
 [Deep Learning Book](https://www.deeplearningbook.org/)
 [Jupyter Debgger](https://github.com/jupyterlab/debugger)
+
+
+# discription
+|name|link|memo|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
+|-|-|-|
