@@ -80,10 +80,10 @@ class Actor(nn.Module):
         self.actor_network.train()
         mu_a, std_a = self.actor_network(states)
         log_policy_pdf = self.log_pdf(mu_a, std_a, actions)
-        loss = torch.sum(-log_policy_pdf*advantages)
+        loss = torch.sum(-log_policy_pdf*advantages.detach())
 
         self.optimizer.zero_grad()
-        loss.backward(retain_graph=True)
+        loss.backward()
         self.optimizer.step()
 
     def save(self, path, name):
@@ -114,10 +114,10 @@ class Critic(nn.Module):
     def update(self, states, targets):
         self.critic_network.train()
         values = self.critic_network(states)
-        loss = F.mse_loss(values, targets)
+        loss = F.mse_loss(values, targets.detach())
         
         self.optimizer.zero_grad()
-        loss.backward(retain_graph=True)
+        loss.backward()
         self.optimizer.step()
 
     def save(self, path, name):
