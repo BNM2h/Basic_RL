@@ -29,10 +29,10 @@ SAVE_NAMES = [SAVE_ACTOR, SAVE_CRITIC]
 def main():
 
     ### A3C Global Agent
-    agent = Agent(ENV, NUM_WORKERS)
+    agent = Agent(ENV, NUM_WORKERS, LR_RATE, ENTROPY_BETA)
 
     ### Training
-    agent.train(MAX_EPISODE, LR_RATE, GAMMA, T_STEP_MAX, ENTROPY_BETA, SAVE_FOLDER, SAVE_NAMES)
+    agent.train(MAX_EPISODE, GAMMA, T_STEP_MAX, SAVE_FOLDER, SAVE_NAMES)
 
     ### Visualize Results
     #visualize(agent, env)
@@ -59,6 +59,7 @@ def visualize(agent, env):
             break
 
     env.close()
+
 
                 
 if __name__ == "__main__":
