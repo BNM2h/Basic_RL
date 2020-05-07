@@ -2,7 +2,9 @@
 
 
 ## Introduction
-<img src="./img/BNM2h.png" width="20%" height="20%"></img>
+<p align="center">
+  <img width="460" height="300" src="./img/BNM2h.png">
+</p>
 
 강화학습으로 만난 열정 넘치는 분들과 함께하는 Study Group `BNM2h` 입니다.
 
@@ -10,7 +12,9 @@
 
 공부하면서 기록을 목적으로 Repository를 잘 키워나가보려고 합니다.:seedling:
 
-Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code들은 많은 reference들과 책들을 참고하여 `Pytorch`로 작성되었습니다.
+Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code들은 
+
+많은 reference들과 책들을 참고하여 `Pytorch`로 작성되었습니다.
 
 많은 응원과 관심 부탁드립니다:blush:
 
