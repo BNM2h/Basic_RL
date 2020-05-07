@@ -1,19 +1,18 @@
-# BNM2h
-<img src="./img/BNM2h.png" width="20%" height="20%" class="center" ></img>
-
+# Basic_RL
 
 
 ## Introduction
+<img src="./img/BNM2h.png" width="20%" height="20%"></img>
+
 강화학습으로 만난 열정 넘치는 분들과 함께하는 Study Group `BNM2h` 입니다.
 
 :umbrella:비(B)가오나 :snowflake:눈(N)이오나 :date:매(M)일 :hourglass_flowing_sand:2(h)시간 강화학습과 함께!
 
 공부하면서 기록을 목적으로 Repository를 잘 키워나가보려고 합니다.:seedling:
 
-Study를 하면서 작성된 code들은 많은 reference들과 책들을 참고하여 `Pytorch`로 작성되었습니다.
+Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code들은 많은 reference들과 책들을 참고하여 `Pytorch`로 작성되었습니다.
 
 많은 응원과 관심 부탁드립니다:blush:
-
 
 
 
@@ -53,5 +52,6 @@ Study를 하면서 작성된 code들은 많은 reference들과 책들을 참고�
 ## :bookmark_tabs: Reference(Thanks to GOOD repositories!)
 * [RL-Adventure](https://github.com/higgsfield/RL-Adventure)
 * [RL-Adventure-2](https://github.com/BNM2h/RL-Adventure-2)
+* [reinforcement-learning-kr](https://reinforcement-learning-kr.github.io/)
 * [Reinforcement-Learning-Book](https://github.com/Yeachan-Heo/Reinforcement-Learning-Book)
 * [pymarl](https://github.com/oxwhirl/pymarl)
