@@ -32,6 +32,8 @@ Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code�
 ## :paw_prints: Study Road 
 ![study_road](./img/study_road.png)
 
+> 화살표의 방향은 스터디 순서 입니다.
+
 |Algorithm|Thanks to|Code|Paper|
 |-|-|-|-|
 |DQN|-|-|-|
