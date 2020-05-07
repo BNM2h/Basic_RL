@@ -3,7 +3,7 @@
 
 ## Introduction
 <p align="center">
-  <img width="460" height="300" src="./img/BNM2h.png">
+  <img width="300" height="300" src="./img/BNM2h.png">
 </p>
 
 강화학습으로 만난 열정 넘치는 분들과 함께하는 Study Group `BNM2h` 입니다.
