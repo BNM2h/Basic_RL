@@ -58,6 +58,7 @@ Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code�
 ## :bookmark_tabs: Reference
 > Thanks to GOOD repositories!
 
+* [Spinning Up](https://spinningup.openai.com/en/latest/)
 * [RL-Adventure](https://github.com/higgsfield/RL-Adventure)
 * [RL-Adventure-2](https://github.com/BNM2h/RL-Adventure-2)
 * [reinforcement-learning-kr](https://reinforcement-learning-kr.github.io/)
