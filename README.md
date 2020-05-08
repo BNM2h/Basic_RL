@@ -40,7 +40,7 @@ Reinforcement Learning의 기본 알고리즘들을 공부하며 작성된 code�
 |REINFORCE|-|-|-|
 |A2C|@Rackhun|[code](./pytorch-DS-051/rackhun/1_A2C_pendulum/)|[paper](https://arxiv.org/abs/1602.01783)|
 |A3C|-|-|-|-|
-|DDPG|@LeejwUniverse|[code](./pytorch-DS-051/jungwoo/DDPG_Pendulum.ipynb)|-|
+|DDPG|@LeejwUniverse|[code](./pytorch-DS-051/jungwoo/DDPG_Pendulum.ipynb)|[paper](https://arxiv.org/abs/1509.02971)|-|
 
 
 
